@@ -5,7 +5,7 @@ from sklearn import metrics
 from flask_cors import CORS
 import simplejson as json
 from flask import Flask, stream_with_context
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from io import StringIO
 from werkzeug.datastructures import Headers
