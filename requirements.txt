@@ -4,3 +4,4 @@ gunicorn
 sklearn
 werkzeug
 pandas
+flask-cors
